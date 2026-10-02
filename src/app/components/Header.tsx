@@ -18,9 +18,10 @@ export default function Header() {
 
         <nav className="hidden md:flex gap-6 text-sm font-semibold">
           <Link href="/">Accueil</Link>
-          <Link href="/about">À propos</Link> 
-          <Link href="/menu">Menu</Link>    
-          <Link href="/contact">Contact</Link> 
+          <Link href="/about">À propos</Link>
+          <Link href="/events">Événements</Link>
+          <Link href="/menu">Menu</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
 
         <div className="flex items-center gap-4 text-sm font-semibold">
@@ -58,6 +59,15 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 À propos
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/events"
+                className="block text-sm text-gray-700 hover:text-red-500"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Événements
               </Link>
             </li>
             <li>

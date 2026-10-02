@@ -15,9 +15,9 @@ const CafeSection: React.FC = () => {
         />
         <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center sm:justify-start p-4 rounded-lg">
           <span className="text-white font-bold">
-            <h1 className="text-3xl uppercase">Café Antoine</h1>
+            <h1 className="text-3xl uppercase md:text-5xl lg:text-7xl">Café Antoine</h1>
 
-            <div className="text-xl w-[60%]">
+            <div className="mt-4 text-lg w-full max-w-[70%] md:text-2xl lg:text-3xl leading-relaxed">
               Que ce soit pour un moment entre amis, une pause gourmande ou une session de divertissement, notre salle de jeu vous garantit une expérience unique.
             </div>
           </span>

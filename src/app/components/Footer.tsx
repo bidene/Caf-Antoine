@@ -89,6 +89,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/events" className="text-cream hover:text-[#bb3b2b] transition-colors duration-300">
+                  &Eacute;v&eacute;nements
+                </Link>
+              </li>
+              <li>
                 <Link href="/menu" className="text-cream hover:text-[#bb3b2b] transition-colors duration-300">
                   Menu
                 </Link>
